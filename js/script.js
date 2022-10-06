@@ -9,10 +9,10 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 //input 
 //chiedere al utente numero de km trasformare in numero
 const numKm = parseInt(prompt("quanti km vuoi viaggiare?"));
-//calc prezzo bigletto in base ai km
+//calc prezzo bigletto in base ai km messo dal user
 let ticketPrize = 0.21 * numKm;
 console.log(ticketPrize);
-//alerta con il prezzo senza sconto
+//alerta con il prezzo senza sconto (solo per provare qualcosa de diverso xD)
 alert(`il prezzo del biglietto e' di ${ticketPrize} euro. premi ok per calcolare lo sconto in base al'eta' `)
 //chiedere eta e trasformare in numero 
 const userAge = parseInt(prompt("quanti anni hai??"));
