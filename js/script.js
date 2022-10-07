@@ -22,12 +22,14 @@ console.log(userAge, (typeof userAge));
 //se eta minore di 18, calcolare prezzo bigleto meno 20%
 //altrimente se maggiore di 65 calcolare prezz meno 40%
 //altrimenti prezzo normalre 
+const scount20 = ticketPrize * 0.2;
+const scount40 = ticketPrize * 0.4;
 
 if(userAge < 18) {
-    ticketPrize = ticketPrize - ticketPrize * 0.2
+    ticketPrize = ticketPrize - scount20
     console.log(ticketPrize);
 }else if (userAge >= 65) {
-    ticketPrize = ticketPrize - ticketPrize * 0.4
+    ticketPrize = ticketPrize - scount40
     console.log(ticketPrize);
 }else {
     console.log(ticketPrize);
